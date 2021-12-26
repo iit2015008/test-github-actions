@@ -2,7 +2,7 @@ name: My First Github Action
 on: [push]
 jobs:
   build-apps:
-    runs-app:
+    runs-on:
     steps:
         - uses: actions/checkout@v2
         - uses: actions/setup-node@v2
