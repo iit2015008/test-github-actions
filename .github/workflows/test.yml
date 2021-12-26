@@ -1,4 +1,8 @@
-12312
-123
-1
-2312
+name: My First Github Action
+on: [push]
+jobs: 
+	print-hello-world:
+		runs-on: ubuntu-latest
+		steps:
+			- run: echo "hello world!!"
+			- run: echo "this is step number 2"
